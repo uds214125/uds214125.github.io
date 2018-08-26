@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);/* You can add global styles to this file, and also import other style files */
+/*
+    DEMO STYLE
+*/body{font-family:Poppins,sans-serif;background:#fafafa;overflow-x:hidden}.content-wrapper{font-size:1.1em;font-weight:300;line-height:1.7em;padding:0 0 0 20px}p{font-family:Times New Roman;
+    /* font-size: 1.1em; */
+    /* font-weight: 300; */line-height:1.7em;padding:0 0 0 5px}a,a:focus,a:hover{color:inherit;text-decoration:none;transition:all .3s}.navbar{
+    /* padding: 15px 10px; */background:#fff;border:none;border-radius:0;margin-bottom:40px;box-shadow:1px 1px 3px rgba(0,0,0,.1)}.navbar-btn{box-shadow:none;outline:none!important;border:none}.line{width:100%;height:1px;border-bottom:1px dashed #ddd;margin:40px 0}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */.wrapper{display:-ms-flexbox;display:flex;width:100%;-ms-flex-align:stretch;align-items:stretch}#sidebar{min-width:250px;max-width:250px;background:#f6f6f6;color:#33465a;transition:all .3s}#sidebar.active{margin-left:-250px}#sidebar .sidebar-header{padding:8px;background:#1f2542;text-align:center}#sidebar .sidebar-header h3{color:#f8f9fa}#sidebar ul.components{padding:20px 0;border-bottom:1px solid #47748b}#sidebar ul h3{color:#585858;padding:20px}#sidebar ul li a{padding:10px;font-size:1.1em;display:block}#sidebar ul li a:hover{color:#7386d5;background:#fff}#sidebar ul li.active>a,a[aria-expanded=true]{color:#080808;background:#f8f8f8}a[data-toggle=collapse]{position:relative}.dropdown-toggle:after{display:block;position:absolute;top:50%;right:20px;transform:translateY(-50%)}ul ul a{font-size:.9em!important;padding-left:30px!important
+    /* background: #656667; */}ul.CTAs{padding:20px}ul.CTAs a{text-align:center;font-size:.9em!important;display:block;border-radius:5px;margin-bottom:5px}a.download{background:#fff;color:#7386d5}a.article,a.article:hover{background:#2b2b2d!important;color:#fff!important}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */#content{width:100%;
+    /* padding: 20px; */min-height:100vh;transition:all .3s}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */@media (max-width:768px){#sidebar{margin-left:-250px}#sidebar.active{margin-left:0}#sidebarCollapse span{display:none}}
