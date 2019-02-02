@@ -1,0 +1,22 @@
+[
+    {
+    "name":"UDP",
+    "city": "BOMBAY"
+    },
+    {
+        "name": "UDS",
+        "city": "BANGALORE"
+    },
+    {
+        "name": "UDC",
+        "city": "BANGALORE"
+    },
+    {
+       "name": "UDA",
+        "city": "PATNA"
+    },
+    {
+        "name": "UDM",
+        "city": "BHOPAL"
+    }
+]
